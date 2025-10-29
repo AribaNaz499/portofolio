@@ -11,7 +11,7 @@ import project10 from '../project/project10.png';
 import project11 from '../project/project11.png';
 import project12 from '../project/project12.png';
 import project14 from '../project/project14.png';
-import project15 from '../project/project15.png';
+import project15 from '../project/project15.PNG';
 import project16 from '../project/project16.png';
 import project17 from '../project/project17.png';
 import project18 from '../project/project18.png';
