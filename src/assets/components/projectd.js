@@ -1,5 +1,4 @@
 import project from '../project/project.png';
-import project1 from '../project/project1.png';
 import project3 from '../project/project3.png';
 import project4 from '../project/project4.png';
 import project5 from '../project/project5.png';
@@ -12,9 +11,9 @@ import project11 from '../project/project11.png';
 import project12 from '../project/project12.png';
 import project14 from '../project/project14.png';
 import project15 from '../project/project15.PNG';
-import project16 from '../project/project16.png';
-import project17 from '../project/project17.png';
-import project18 from '../project/project18.png';
+import project16 from '../project/project16.PNG';
+import project17 from '../project/project17.PNG';
+import project18 from '../project/project18.PNG';
 export const PROJECTS = [
   {
     name: "Game UI",
@@ -36,6 +35,7 @@ description: "A visually engaging game UI built with HTML, CSS, and Bootstrap, d
     description: "A clean, simple, and user-friendly login page designed to provide a smooth authentication experience. The layout emphasizes intuitive navigation, ensuring that users can log in easily across devices with a responsive, polished design.",
     technologies: ["HTML", "CSS"]
   },
+   
    {
     name: "Clinical Website",
     image: project16 ,
