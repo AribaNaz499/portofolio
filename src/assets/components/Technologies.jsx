@@ -1,12 +1,13 @@
 import {
   RiBootstrapLine,
   RiCss3Line,
+  RiGithubFill, // Use the filled version of the GitHub icon
   RiHtml5Line,
   RiJavascriptLine,
   RiReactjsLine,
   RiWordpressLine,
 } from "react-icons/ri";
-import { SiPhp, SiLaravel } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si"; // Correct import
 import { motion } from "framer-motion";
 
 // Icon animation variants
@@ -72,14 +73,14 @@ const Technologies = () => {
           <RiWordpressLine className="text-7xl text-blue-800" />
         </motion.div>
 
-        {/* ✅ PHP Icon */}
-        <motion.div initial="initial" animate="animate" variants={iconVariants(4)}>
-          <SiPhp className="text-7xl text-indigo-700" />
+        {/* Tailwind CSS Icon */}
+        <motion.div initial="initial" animate="animate" variants={iconVariants(3)}>
+          <SiTailwindcss className="text-7xl text-purple-700" /> {/* Corrected import */}
         </motion.div>
 
-        {/* ✅ Laravel Icon */}
-        <motion.div initial="initial" animate="animate" variants={iconVariants(3)}>
-          <SiLaravel className="text-7xl text-red-600" />
+        {/* GitHub Icon */}
+        <motion.div initial="initial" animate="animate" variants={iconVariants(4)}>
+          <RiGithubFill className="text-7xl text-white " /> {/* Added border for visibility */}
         </motion.div>
       </motion.div>
     </div>

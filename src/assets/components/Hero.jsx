@@ -1,5 +1,5 @@
 import profilepic from "../IMAGES/ariba.jpg";
-import resume from "../IMAGES/my-resume.pdf";
+import resume from "../IMAGES/Ariba_Naz_Resume.pdf";
 import { motion } from "framer-motion";
 
 // Corrected containerVariants (fixed the typo "vsible" to "visible")
