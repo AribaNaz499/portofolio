@@ -1,13 +1,11 @@
 import {
-  RiBootstrapLine,
   RiCss3Line,
-  RiGithubFill, // Use the filled version of the GitHub icon
+  RiGithubFill,
   RiHtml5Line,
   RiJavascriptLine,
   RiReactjsLine,
-  RiWordpressLine,
 } from "react-icons/ri";
-import { SiTailwindcss } from "react-icons/si"; // Correct import
+import { SiTailwindcss, SiSupabase, SiPostgresql, SiChakraui } from "react-icons/si"; 
 import { motion } from "framer-motion";
 
 // Icon animation variants
@@ -45,12 +43,12 @@ const Technologies = () => {
       >
         {/* HTML Icon */}
         <motion.div initial="initial" animate="animate" variants={iconVariants(2)}>
-          <RiHtml5Line className="text-7xl text-orange-800" />
+          <RiHtml5Line className="text-7xl text-orange-600" />
         </motion.div>
 
         {/* CSS Icon */}
         <motion.div initial="initial" animate="animate" variants={iconVariants(3)}>
-          <RiCss3Line className="text-7xl text-blue-700" />
+          <RiCss3Line className="text-7xl text-blue-500" />
         </motion.div>
 
         {/* JavaScript Icon */}
@@ -58,29 +56,34 @@ const Technologies = () => {
           <RiJavascriptLine className="text-7xl text-yellow-400" />
         </motion.div>
 
-        {/* Bootstrap Icon */}
-        <motion.div initial="initial" animate="animate" variants={iconVariants(2)}>
-          <RiBootstrapLine className="text-7xl text-purple-600" />
-        </motion.div>
-
         {/* React Icon */}
         <motion.div initial="initial" animate="animate" variants={iconVariants(6)}>
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
 
-        {/* Wordpress Icon */}
-        <motion.div initial="initial" animate="animate" variants={iconVariants(4)}>
-          <RiWordpressLine className="text-7xl text-blue-800" />
-        </motion.div>
-
         {/* Tailwind CSS Icon */}
         <motion.div initial="initial" animate="animate" variants={iconVariants(3)}>
-          <SiTailwindcss className="text-7xl text-purple-700" /> {/* Corrected import */}
+          <SiTailwindcss className="text-7xl text-teal-400" />
+        </motion.div>
+
+        {/* Chakra UI Icon */}
+        <motion.div initial="initial" animate="animate" variants={iconVariants(4.5)}>
+          <SiChakraui className="text-7xl text-teal-500" />
+        </motion.div>
+
+        {/* Supabase Icon */}
+        <motion.div initial="initial" animate="animate" variants={iconVariants(2.5)}>
+          <SiSupabase className="text-7xl text-emerald-500" />
+        </motion.div>
+
+        {/* PostgreSQL Icon */}
+        <motion.div initial="initial" animate="animate" variants={iconVariants(4)}>
+          <SiPostgresql className="text-7xl text-sky-600" />
         </motion.div>
 
         {/* GitHub Icon */}
-        <motion.div initial="initial" animate="animate" variants={iconVariants(4)}>
-          <RiGithubFill className="text-7xl text-white " /> {/* Added border for visibility */}
+        <motion.div initial="initial" animate="animate" variants={iconVariants(3.5)}>
+          <RiGithubFill className="text-7xl text-white" />
         </motion.div>
       </motion.div>
     </div>
